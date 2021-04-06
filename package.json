@@ -1,0 +1,34 @@
+{
+  "name": "react-service-worker",
+  "version": "1.0.0",
+  "description": "Setup service worker and prompt to update whenever a new version is released",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Crazy-Corders/react-service-worker.git"
+  },
+  "author": "@Crazy-Coders",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crazy-Corders/reat-service-worker/issues"
+  },
+  "homepage": "https://github.com/Crazy-Corders/react-service-worker#readme",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.13.13",
+    "@rollup/plugin-babel": "^5.3.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.44.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
